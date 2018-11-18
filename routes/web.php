@@ -20,4 +20,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/about', 'profilController@viewAbout')->name('about');
 Route::get('/user/verify/{token}', 'Auth\RegisterController@verifyUser');

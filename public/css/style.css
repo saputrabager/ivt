@@ -1,0 +1,13 @@
+.main-content{
+    width: 80%;
+    height: 100vh;
+}
+
+.menu-right{
+    width: 20%;
+    height: 100vh;
+}
+
+.main-header .navbar {
+    height: 50px;
+}
